@@ -1,0 +1,319 @@
+@import url('fonts.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+nav.header__nav{
+    height: 100px;
+    background: #3E8989;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .container ul{
+    display: flex;
+    gap: 30px;
+}
+
+.header__list-link{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header__list-link:hover{
+    text-decoration: underline;
+}
+
+
+.search{
+    width: 290px;
+    display: flex;
+}
+
+.search__l{
+    width: 216px;
+    height: 35px;
+    border-radius: 20px 0px 0px 20px;
+    background: #FFF;
+    padding: 8px 148px 8px 20px;
+}
+
+.search-text{
+    color: #898989;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+.search__r{
+    width: 74px;
+    height: 35px;
+    border-radius: 0px 20px 20px 0px;
+    background: #295E5E;
+    padding: 9px 14px; 
+}
+
+.search-search{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/intro.png')no-repeat 0 0 / cover;
+    height: 100vh;
+}
+
+.intro-title{
+    color: #FFF;
+font-family: Rubik;
+font-size: 80px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+
+.intro-text{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+.intro-btn{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    background: #B4436C;
+    padding: 14px 77px;
+    margin-top: 50px;
+}
+
+.intro-btn:hover{
+    color: #B4436C;
+    background: #FFF;
+}
+
+
+
+.main .container{
+    margin-top: 80px;
+}
+
+.aboutus{
+    height: 360px;
+}
+
+.aboutus__content{
+    height: 261px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.aboutus__title{
+    color: #3E8989;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.aboutus__img{
+    margin-right: 20px;
+    max-width: 545px;
+    width: 100%;
+}
+
+.aboutus__descr{
+    color: #000;
+font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+margin-top: 9px;
+}
+
+.aboutus__descr-first{
+    margin-bottom: 20px;
+}
+
+
+.catalog .container{
+    height: 454px;
+    margin-top: 97px;
+}
+
+.catalog__title{
+    color: #3E8989;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 53px;
+}
+
+.catalog__items{
+    display: flex;
+    gap: 20px;
+}
+
+.catalog__items-content{
+    display: flex;
+    flex-direction: column;
+    height: 359px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.catalog__item{
+    width: 263px;
+    height: 300px;
+    background: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog ul{
+    display: flex;
+    margin-top: 30px;
+}
+
+.catalog__list-link{
+    color: #000;
+font-size: 24px;
+font-weight: 600;
+}
+
+.catalog__list-link:hover{
+    color: #B4436C;
+}
+
+
+.contacts{
+    margin-top: 100px;
+    height: 166px;
+}
+
+.contacts__title{
+    color: #3E8989;
+font-size: 40px;
+font-weight: 600;
+}
+
+.contacts__descr{
+    max-width: 555px;
+    width: 100%;
+    color: #000;
+font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+
+}
+
+.contacts__bottom{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tel{
+    display: flex;
+    flex-direction: column;
+}
+
+.tel a{
+    color: #000;
+font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+}
+
+a.tel__numbers{
+    margin-bottom: 20px;
+}
+
+.footer .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    margin-top: 104px;
+    height: 150px;
+    background: #3E8989;
+    
+}
+
+.footer__list{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.footer__list-link{
+    color: #FFF;
+font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+
+}
+
+.last{
+    display: flex;
+    justify-content: center;
+    margin-top: 59px;
+}
+
+p.descr{
+    color: #FFF;
+font-family: Rubik;
+font-size: 14px;
+font-weight: 400;
+}
+
+p.date{
+    color: #FFF;
+font-family: Rubik;
+font-size: 14px;
+font-weight: 400;
+margin-left: 6px;
+}

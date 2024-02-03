@@ -1,0 +1,89 @@
+@media (max-width: 1333px) {
+    .header__nav{
+        padding: 0 60px;
+    }
+}
+
+@media (max-width: 1130px) {
+    .container{
+        padding: 0 20px;
+    }
+    
+    .catalog .container{
+        height: 100%;
+    }
+    .catalog__items{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media (max-width: 926px) {
+    .aboutus{
+        height: auto;
+    }
+    
+    .aboutus__content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        height: auto;
+    }
+    .aboutus__img{
+        max-width: 950px;
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 826px) {
+    nav.header__nav {
+        height: 100%;
+        padding: 10px 0;
+        width: 100%;
+    }
+    
+    .header__nav .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .tel{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 686px) {
+    .contacts__title{
+        text-align: center;
+    }
+}
+
+@media (max-width: 556px) {
+    .intro-text{
+        text-align: center;
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contacts{
+        height: 100%;
+    }
+    .contacts__bottom{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contacts__descr{
+        text-align: center;
+    }
+    
+    .tel{
+        margin-left: 0;
+    }
+}
